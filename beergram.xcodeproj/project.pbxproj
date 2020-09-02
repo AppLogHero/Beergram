@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C61DF9B924FFB3660030FD6B /* beergramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DF9B824FFB3660030FD6B /* beergramApp.swift */; };
+		C61DF9BB24FFB3660030FD6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DF9BA24FFB3660030FD6B /* ContentView.swift */; };
+		C61DF9BD24FFB3680030FD6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61DF9BC24FFB3680030FD6B /* Assets.xcassets */; };
+		C61DF9C024FFB3680030FD6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61DF9BF24FFB3680030FD6B /* Preview Assets.xcassets */; };
+		C61DF9CB24FFB3680030FD6B /* beergramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DF9CA24FFB3680030FD6B /* beergramTests.swift */; };
+		C61DF9D624FFB3680030FD6B /* beergramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DF9D524FFB3680030FD6B /* beergramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C61DF9C724FFB3680030FD6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61DF9AD24FFB3660030FD6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61DF9B424FFB3660030FD6B;
+			remoteInfo = beergram;
+		};
+		C61DF9D224FFB3680030FD6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61DF9AD24FFB3660030FD6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61DF9B424FFB3660030FD6B;
+			remoteInfo = beergram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C61DF9B524FFB3660030FD6B /* beergram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beergram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61DF9B824FFB3660030FD6B /* beergramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beergramApp.swift; sourceTree = "<group>"; };
+		C61DF9BA24FFB3660030FD6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C61DF9BC24FFB3680030FD6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C61DF9BF24FFB3680030FD6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C61DF9C124FFB3680030FD6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61DF9C624FFB3680030FD6B /* beergramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beergramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61DF9CA24FFB3680030FD6B /* beergramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beergramTests.swift; sourceTree = "<group>"; };
+		C61DF9CC24FFB3680030FD6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61DF9D124FFB3680030FD6B /* beergramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beergramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61DF9D524FFB3680030FD6B /* beergramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beergramUITests.swift; sourceTree = "<group>"; };
+		C61DF9D724FFB3680030FD6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C61DF9B224FFB3660030FD6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61DF9C324FFB3680030FD6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61DF9CE24FFB3680030FD6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C61DF9AC24FFB3660030FD6B = {
+			isa = PBXGroup;
+			children = (
+				C61DF9B724FFB3660030FD6B /* beergram */,
+				C61DF9C924FFB3680030FD6B /* beergramTests */,
+				C61DF9D424FFB3680030FD6B /* beergramUITests */,
+				C61DF9B624FFB3660030FD6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C61DF9B624FFB3660030FD6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C61DF9B524FFB3660030FD6B /* beergram.app */,
+				C61DF9C624FFB3680030FD6B /* beergramTests.xctest */,
+				C61DF9D124FFB3680030FD6B /* beergramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C61DF9B724FFB3660030FD6B /* beergram */ = {
+			isa = PBXGroup;
+			children = (
+				C61DF9B824FFB3660030FD6B /* beergramApp.swift */,
+				C61DF9BA24FFB3660030FD6B /* ContentView.swift */,
+				C61DF9BC24FFB3680030FD6B /* Assets.xcassets */,
+				C61DF9C124FFB3680030FD6B /* Info.plist */,
+				C61DF9BE24FFB3680030FD6B /* Preview Content */,
+			);
+			path = beergram;
+			sourceTree = "<group>";
+		};
+		C61DF9BE24FFB3680030FD6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C61DF9BF24FFB3680030FD6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C61DF9C924FFB3680030FD6B /* beergramTests */ = {
+			isa = PBXGroup;
+			children = (
+				C61DF9CA24FFB3680030FD6B /* beergramTests.swift */,
+				C61DF9CC24FFB3680030FD6B /* Info.plist */,
+			);
+			path = beergramTests;
+			sourceTree = "<group>";
+		};
+		C61DF9D424FFB3680030FD6B /* beergramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C61DF9D524FFB3680030FD6B /* beergramUITests.swift */,
+				C61DF9D724FFB3680030FD6B /* Info.plist */,
+			);
+			path = beergramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C61DF9B424FFB3660030FD6B /* beergram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61DF9DA24FFB3680030FD6B /* Build configuration list for PBXNativeTarget "beergram" */;
+			buildPhases = (
+				C61DF9B124FFB3660030FD6B /* Sources */,
+				C61DF9B224FFB3660030FD6B /* Frameworks */,
+				C61DF9B324FFB3660030FD6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = beergram;
+			productName = beergram;
+			productReference = C61DF9B524FFB3660030FD6B /* beergram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C61DF9C524FFB3680030FD6B /* beergramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61DF9DD24FFB3680030FD6B /* Build configuration list for PBXNativeTarget "beergramTests" */;
+			buildPhases = (
+				C61DF9C224FFB3680030FD6B /* Sources */,
+				C61DF9C324FFB3680030FD6B /* Frameworks */,
+				C61DF9C424FFB3680030FD6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61DF9C824FFB3680030FD6B /* PBXTargetDependency */,
+			);
+			name = beergramTests;
+			productName = beergramTests;
+			productReference = C61DF9C624FFB3680030FD6B /* beergramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C61DF9D024FFB3680030FD6B /* beergramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61DF9E024FFB3680030FD6B /* Build configuration list for PBXNativeTarget "beergramUITests" */;
+			buildPhases = (
+				C61DF9CD24FFB3680030FD6B /* Sources */,
+				C61DF9CE24FFB3680030FD6B /* Frameworks */,
+				C61DF9CF24FFB3680030FD6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61DF9D324FFB3680030FD6B /* PBXTargetDependency */,
+			);
+			name = beergramUITests;
+			productName = beergramUITests;
+			productReference = C61DF9D124FFB3680030FD6B /* beergramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C61DF9AD24FFB3660030FD6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					C61DF9B424FFB3660030FD6B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					C61DF9C524FFB3680030FD6B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = C61DF9B424FFB3660030FD6B;
+					};
+					C61DF9D024FFB3680030FD6B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = C61DF9B424FFB3660030FD6B;
+					};
+				};
+			};
+			buildConfigurationList = C61DF9B024FFB3660030FD6B /* Build configuration list for PBXProject "beergram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C61DF9AC24FFB3660030FD6B;
+			productRefGroup = C61DF9B624FFB3660030FD6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C61DF9B424FFB3660030FD6B /* beergram */,
+				C61DF9C524FFB3680030FD6B /* beergramTests */,
+				C61DF9D024FFB3680030FD6B /* beergramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C61DF9B324FFB3660030FD6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61DF9C024FFB3680030FD6B /* Preview Assets.xcassets in Resources */,
+				C61DF9BD24FFB3680030FD6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61DF9C424FFB3680030FD6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61DF9CF24FFB3680030FD6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C61DF9B124FFB3660030FD6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61DF9BB24FFB3660030FD6B /* ContentView.swift in Sources */,
+				C61DF9B924FFB3660030FD6B /* beergramApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61DF9C224FFB3680030FD6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61DF9CB24FFB3680030FD6B /* beergramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61DF9CD24FFB3680030FD6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61DF9D624FFB3680030FD6B /* beergramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C61DF9C824FFB3680030FD6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61DF9B424FFB3660030FD6B /* beergram */;
+			targetProxy = C61DF9C724FFB3680030FD6B /* PBXContainerItemProxy */;
+		};
+		C61DF9D324FFB3680030FD6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61DF9B424FFB3660030FD6B /* beergram */;
+			targetProxy = C61DF9D224FFB3680030FD6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C61DF9D824FFB3680030FD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C61DF9D924FFB3680030FD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C61DF9DB24FFB3680030FD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"beergram/Preview Content\"";
+				DEVELOPMENT_TEAM = 3NZ2WUY2FY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = beergram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppLogIndustry.beergram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C61DF9DC24FFB3680030FD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"beergram/Preview Content\"";
+				DEVELOPMENT_TEAM = 3NZ2WUY2FY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = beergram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppLogIndustry.beergram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C61DF9DE24FFB3680030FD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NZ2WUY2FY;
+				INFOPLIST_FILE = beergramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppLogIndustry.beergramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beergram.app/beergram";
+			};
+			name = Debug;
+		};
+		C61DF9DF24FFB3680030FD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NZ2WUY2FY;
+				INFOPLIST_FILE = beergramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppLogIndustry.beergramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/beergram.app/beergram";
+			};
+			name = Release;
+		};
+		C61DF9E124FFB3680030FD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NZ2WUY2FY;
+				INFOPLIST_FILE = beergramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppLogIndustry.beergramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = beergram;
+			};
+			name = Debug;
+		};
+		C61DF9E224FFB3680030FD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NZ2WUY2FY;
+				INFOPLIST_FILE = beergramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AppLogIndustry.beergramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = beergram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C61DF9B024FFB3660030FD6B /* Build configuration list for PBXProject "beergram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61DF9D824FFB3680030FD6B /* Debug */,
+				C61DF9D924FFB3680030FD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61DF9DA24FFB3680030FD6B /* Build configuration list for PBXNativeTarget "beergram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61DF9DB24FFB3680030FD6B /* Debug */,
+				C61DF9DC24FFB3680030FD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61DF9DD24FFB3680030FD6B /* Build configuration list for PBXNativeTarget "beergramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61DF9DE24FFB3680030FD6B /* Debug */,
+				C61DF9DF24FFB3680030FD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61DF9E024FFB3680030FD6B /* Build configuration list for PBXNativeTarget "beergramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61DF9E124FFB3680030FD6B /* Debug */,
+				C61DF9E224FFB3680030FD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C61DF9AD24FFB3660030FD6B /* Project object */;
+}
